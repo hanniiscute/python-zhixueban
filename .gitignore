@@ -1,0 +1,49 @@
+# 环境变量（.env 内含真实 API 密钥，绝对不能进公开仓库）
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+frontend/.env.local
+# 注意：backend/.env.example 与 backend/.env.clean 是模板（不含密钥），需要提交，勿忽略
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+# 数据
+# 注意：不要一刀切忽略 data/。backend/data 里放的是知识库源数据
+#   （教材 PPT、exercises.json、learning_paths.json）、离线向量模型和预构建的
+#   FAISS 索引 —— 缺了它们，clone 下来 RAG 检索不到任何内容，连重建索引的原料
+#   都没有。这里只忽略真正的运行时产物。
+*.db
+*.sqlite
+backend/data/.token_secret
+# IDE
+.vscode/
+.idea/
+# Node
+node_modules/
+frontend/dist/
+frontend/node_modules/
+# 日志
+*.log
+logs/
+# AI 工具协作目录（不属于项目源码）
+.claude/
+.workbuddy/
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+# 测试产物
+.pytest_cache/
+.coverage
+htmlcov/
+# 缓存
+.npm-cache/
+.pip-cache/
