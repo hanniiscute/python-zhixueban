@@ -1,0 +1,1650 @@
+[
+  {
+    "id": "E001",
+    "chapter": "Python概述",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "Python是一门面向        的高级编程语言。",
+    "answer": "对象"
+  },
+  {
+    "id": "E002",
+    "chapter": "Python概述",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "Python可以在多种平台运行，这体现了Python语言        的特性。",
+    "answer": "可移植性"
+  },
+  {
+    "id": "E003",
+    "chapter": "Python概述",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "Python模块的本质是后缀名为        的文件。",
+    "answer": ".py"
+  },
+  {
+    "id": "E004",
+    "chapter": "Python概述",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "Python中使用        语句可以在当前程序中导入模块。",
+    "answer": "import"
+  },
+  {
+    "id": "E005",
+    "chapter": "Python概述",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "工具是一个通用的Python 模块、包或库的管理工具。",
+    "answer": "pip"
+  },
+  {
+    "id": "E006",
+    "chapter": "Python概述",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "实现同一功能时，Python程序比C++程序的代码量多，运行速度快。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E007",
+    "chapter": "Python概述",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "import语句支持一次导入多个模块。（ ）",
+    "answer": "√"
+  },
+  {
+    "id": "E008",
+    "chapter": "Python概述",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "Python程序的执行依赖Python解释器。（ ）",
+    "answer": "√"
+  },
+  {
+    "id": "E009",
+    "chapter": "Python概述",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "PyCharm是Python的集成开发环境。（ ）",
+    "answer": "√"
+  },
+  {
+    "id": "E010",
+    "chapter": "Python概述",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "模块文件的后缀名一定是.py。（ ）",
+    "answer": "√"
+  },
+  {
+    "id": "E011",
+    "chapter": "Python概述",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列选项中，属于Python语言特点的是（ ）。（多选）\nA.简洁\t\t             B.开源\nC.可移植性好\t\t         D.类库丰富",
+    "answer": "ABCD\nD\nC"
+  },
+  {
+    "id": "E012",
+    "chapter": "Python概述",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列选项中，哪个不属于Python的应用领域？（ ）\nWeb开发\n数据分析\n人工智能\n操作系统管理",
+    "answer": ""
+  },
+  {
+    "id": "E013",
+    "chapter": "Python概述",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "关于Python程序运行的说法中，描述错误的是（ ）。\nPython程序的运行依赖解释器\nPython程序可以通过解释器逐行解释并运行\nPython程序只能通过解释器逐行运行\nPython程序可以以文件的形式运行",
+    "answer": ""
+  },
+  {
+    "id": "E014",
+    "chapter": "Python概述",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "简述Python的特点。",
+    "answer": "（1）简洁。Python语言以简洁而著称，它舍弃了繁琐的符号与冗长的语法结构，取而代之的是用缩进体现语句之间的层次关系，这种简洁的风格使代码结构变得清晰且易读。相较于C、C++、Java等其他编程语言，在实现相同功能时，Python代码的行数往往更少。（2）语法优美。Python语法的设计非常接近人类语言，开发人员只需要了解一些英语单词表示的助记符，就能够大致读懂代码。此外，Python非常注重代码的风格统一，它有着一套严格的代码规范和指导原则，约定俗成的编码风格被很多开发人员接受和遵循，这保证了Python代码的可读性。（3）简单易学。Python相比其他编程语言简单易学，它着重于问题解决而非语言本身的语法和结构。Python的语法主要借鉴了C语言，但去除了C语言中复杂的指针，并始终坚持着“使用最优方案解决问题”的原则，从而简化了语法，降低了学习难度。（4）开源。Python是FLOSS（自由/开放源码软件）之一，用户可以自由地下载、拷贝、阅读、修改代码，并能自由发布修改后的代码，这使相当一部分用户热衷于改进与优化Python。（5）可移植性好。Python具有良好的可移植性，它可以在任何安装有Python解释器的操作系统上轻松执行，无论是Windows、macOS还是Linux等操作系统上，都具有一致的行为。（6）扩展性好。Python提供了广泛的扩展机制，使开发人员能够方便地添加新功能和库。Python的包管理器和模块化的架构让开发人员能够轻松安装、导入和分享各种第三方库和模块。（7）类库丰富。Python本身拥有丰富的内置库，世界各地的开发人员通过开源社区又贡献了数万个第三方库，这些第三方库几乎覆盖了各个应用领域，使开发人员能够更容易地实现一些复杂的功能。（8）通用灵活。Python 是一门应用广泛的编程语言，它可以被用于Web开发、科学计算、数据分析、游戏开发、人工智能等各个领域。在Web开发中，Python的Web框架提供了强大的功能，使开发人员能够快速构建高效可靠的Web应用；在数据分析中，Python的数据处理库提供了丰富的功能和算法，方便开发人员进行数据分析；在人工智能领域，Python的机器学习库为开发人员提供了强大的工具，支持各种智能应用的开发。（9）良好的中文支持。Python在处理和操作中文字符、中文文本等方面有着非常出色的表现，这主要得益于其支持Unicode编码，可以轻松地编写、读取、处理中文字符，并与其他语言的字符进行无缝交互。"
+  },
+  {
+    "id": "E015",
+    "chapter": "Python概述",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "简单程序中导入与使用模块的几种方式。",
+    "answer": "Python中可以使用关键字import导入一个或多个模块，也可以使用from 模块名 import * 导入模块中的全部内容。"
+  },
+  {
+    "id": "E016",
+    "chapter": "Python概述",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "请在Python开发工具中输入并运行以下程序，查看程序运行结果。",
+    "answer": "省略，代码详见教材。"
+  },
+  {
+    "id": "E017",
+    "chapter": "Python概述",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "整数求和。输入整数n，计算1~n之和。\nn = int(input(\"请输入一个整数：\"))\nsum = 0\nfor i in range(1, n + 1):\nsum += i\nprint(\"1~%d的求和结果为%d\"%(n, sum))",
+    "answer": ""
+  },
+  {
+    "id": "E018",
+    "chapter": "Python概述",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "整数排序。输入三个整数，把这三个数由小到大输出。\nl = []\nfor i in range(3):\nx = int(input('请输入整数：'))\nl.append(x)\nl.sort()\nprint(l)",
+    "answer": ""
+  },
+  {
+    "id": "E019",
+    "chapter": "Python概述",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "打印九九乘法表。\nfor i in range(1, 10):\nfor j in range(1, i+1):\nprint(\"%d×%d=%-2d \"%(j, i, i*j), end = '')\nprint('')",
+    "answer": ""
+  },
+  {
+    "id": "E020",
+    "chapter": "Python概述",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "绘制多个起点相同单大小不同的五角星，如图1-30所示。\n图1-30 重叠五角星\nimport turtle as t\ndef draw_fiveStars(leng):\ncount = 1\nwhile count <= 5:\nt.forward(leng)\t\t\t\t# 向前走50\nt.right(144)\t\t\t\t# 向右转144度\ncount += 1\nleng += 10\t\t\t\t\t\t# 设置星星大小\nif leng <= 100:\ndraw_fiveStars(leng)\ndef main():\nt.penup()\nt.backward(100)\nt.pendown()\nt.pensize(2)\nt.pencolor('red')\nsegment = 50\ndraw_fiveStars(segment)\nt.exitonclick()\nif __name__ == '__main__':\nmain()",
+    "answer": ""
+  },
+  {
+    "id": "E021",
+    "chapter": "Python基础",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "Python中建议使用______个空格表示一级缩进。",
+    "answer": "4"
+  },
+  {
+    "id": "E022",
+    "chapter": "Python基础",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "布尔类型的取值包括______和______。",
+    "answer": "True  False"
+  },
+  {
+    "id": "E023",
+    "chapter": "Python基础",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "使用______函数可查看数据的类型。",
+    "answer": "type()"
+  },
+  {
+    "id": "E024",
+    "chapter": "Python基础",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "float()函数用于将数据转换为______类型的数据。",
+    "answer": "浮点"
+  },
+  {
+    "id": "E025",
+    "chapter": "Python基础",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "若a=3，b=-2，则a+=b执行后a的结果为______。",
+    "answer": "5"
+  },
+  {
+    "id": "E026",
+    "chapter": "Python基础",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "Python中可以使用关键字作为变量名。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E027",
+    "chapter": "Python基础",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "变量名可以以数字开头。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E028",
+    "chapter": "Python基础",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "Python标识符不区分大小写。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E029",
+    "chapter": "Python基础",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "布尔类型是特殊的浮点型。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E030",
+    "chapter": "Python基础",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "复数类型的实数部分可以为0。（ ）",
+    "answer": "√"
+  },
+  {
+    "id": "E031",
+    "chapter": "Python基础",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列选项中，用于Python代码实现单行注释的符号是（ ）。\n#\n/\n//\n<!-- -->",
+    "answer": "A\nA\nD\nB\nC"
+  },
+  {
+    "id": "E032",
+    "chapter": "Python基础",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列选项中，不属于Python关键字的是（ ）。\nname\nif\nis\nand",
+    "answer": ""
+  },
+  {
+    "id": "E033",
+    "chapter": "Python基础",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列选项中，哪个数据的类型是属于数字类型的？（ ）\n0\n1.0\n1+2j\n以上全部",
+    "answer": ""
+  },
+  {
+    "id": "E034",
+    "chapter": "Python基础",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "若想要将2转换为二进制数0b10，应该使用下列哪个函数？（ ）\noct()\nbin()\nhex()\nint()",
+    "answer": ""
+  },
+  {
+    "id": "E035",
+    "chapter": "Python基础",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列选项中，不属于Python数据类型的是（ ）。\nbool\ndict\nstring\nset",
+    "answer": ""
+  },
+  {
+    "id": "E036",
+    "chapter": "Python基础",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "请简单介绍Python中的数据类型和数字类型。",
+    "answer": "根据数据存储形式的不同，Python使用不同的数据类型存储不同类型的数据。数字类型提供了数值的存储，Python中的数字类型又包含整型、浮点型、复数类型和布尔类型。"
+  },
+  {
+    "id": "E037",
+    "chapter": "Python基础",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "请简述Python变量的命名规范。",
+    "answer": "常量名使用大写的单个单词或由下画线连接的多个单词（如ORDER_LIST_LIMIT）；模块名、函数名使用小写的单个单词或由下画线连接的多个单词（如low_with_under）；类名使用大写字母开头的单个或多个单词（如Cat、CapWorld）。"
+  },
+  {
+    "id": "E038",
+    "chapter": "Python基础",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "请简单介绍Python中的运算符。",
+    "answer": "Python运算符是一种特殊的符号，主要用于实现数值之间的运算。根据功能的不同，运算符可分为算术运算符、赋值运算符、比较运算符、逻辑运算符和成员运算符，其中算术运算符主要用于执行基本的数学运算，比如加法、减法、乘法、除法等；赋值运算符用于将一个表达式或值赋值给变量，最简单的赋值运算符是=，此外还有一种复合赋值运算符，复合赋值运算符同时具备算术运算和赋值两项功能；比较运算符也叫关系运算符，用于比较两边操作数之间的关系；逻辑运算符可以把多个条件按照逻辑进行连接，变成更复杂的条件；成员运算符用于检测给定数据是否存在于字符串、列表、元组、集合、字典等序列中；位运算符用于对操作数的二进制位进行逻辑运算，操作数必须为整数。"
+  },
+  {
+    "id": "E039",
+    "chapter": "Python基础",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "编写程序，要求程序能根据用户输入的数据计算圆的面积，并分别输出圆的直径和面积。提示：圆的面积公式为，π的取值为3.14。",
+    "answer": "答案：\nradius = float(input(\"请输入圆的半径：\"))\n# 计算圆的直径\ndiameter = 2 * radius\n# 计算圆的面积\narea = 3.14 * radius * radius\nprint('圆的直径为：', diameter)\nprint('圆的面积为：', area)\n答案：\nfrequency = (29.5 - 4 * 3) / 2.5\nprint(\"还需运送的次数为：\",frequency)"
+  },
+  {
+    "id": "E040",
+    "chapter": "Python基础",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "已知某煤场有29.5顿煤，先用一辆载重4顿的汽车运3次，剩下的用一辆载重为2.5顿的汽车运送，请计算还需要运送几次才能送完？编写程序，解答此问题。",
+    "answer": ""
+  },
+  {
+    "id": "E041",
+    "chapter": "流程控制",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "Python中通过________实现程序中条件语句的嵌套逻辑。",
+    "answer": "if嵌套"
+  },
+  {
+    "id": "E042",
+    "chapter": "流程控制",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "Python中的循环语句有________和________循环。",
+    "answer": "for ，while"
+  },
+  {
+    "id": "E043",
+    "chapter": "流程控制",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "若循环条件的值变为________，说明程序进入无限循环。",
+    "answer": "True"
+  },
+  {
+    "id": "E044",
+    "chapter": "流程控制",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "________循环一般用于实现遍历循环。",
+    "answer": "for"
+  },
+  {
+    "id": "E045",
+    "chapter": "流程控制",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "________语句可以跳出本次循环，执行下一次循环。",
+    "answer": "continue"
+  },
+  {
+    "id": "E046",
+    "chapter": "流程控制",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "if-else语句可以包含多个判断条件。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E047",
+    "chapter": "流程控制",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "if语句不支持嵌套使用。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E048",
+    "chapter": "流程控制",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "elif可以单独使用。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E049",
+    "chapter": "流程控制",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "break语句用于结束循环。（ ）",
+    "answer": "√"
+  },
+  {
+    "id": "E050",
+    "chapter": "流程控制",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "for循环只能遍历字符串。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E051",
+    "chapter": "流程控制",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列选项中，运行后会输出1、2、3的是（ ）。\nfor i in range(3):\nprint(i)\nfor i in range(2):\nprint(i + 1)\nnums = [0, 1, 2]\nfor i in nums:\nprint(i + 1)\ni = 1\nwhile i < 3:\nprint(i)\ni = i + 1\n现有如下代码：\nsum = 0\nfor i in range(100):\nif(i % 10):\ncontinue\nsum = sum + i\nprint(sum)",
+    "answer": "C\nC\nC\nC\nB"
+  },
+  {
+    "id": "E052",
+    "chapter": "流程控制",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "若运行代码，输出的结果为（ ）。\n5050\n4950\n450\n45",
+    "answer": ""
+  },
+  {
+    "id": "E053",
+    "chapter": "流程控制",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "已知x=10，y=20，z=30；以下代码执行后x、y、z的值分别为（ ）。\nif x < y:\nz = x\nx = y\ny = z\n10，20，30\n10，20，20\n20，10，10\n20，10，30\n已知x与y的关系如表3-3所示：\nx与y的关系",
+    "answer": ""
+  },
+  {
+    "id": "E054",
+    "chapter": "流程控制",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "以下选项中，可以正确地表达x与y之间关系的是（ ）。\ny = x + 1\nif  x >= 0:\nif x == 0:\ny = x\nelse:\ny = x - 1\ny = x - 1\nif x! = 0:\nif x > 0:\ny = x + 1\nelse:\ny = x\nif x <= 0:\nif x < 0:\ny = x - 1\nelse:\ny = x\nelse:\ny = x + 1\ny = x\nif x <= 0:\nif x < 0:\ny = x - 1\nelse:\ny = x + 1",
+    "answer": ""
+  },
+  {
+    "id": "E055",
+    "chapter": "流程控制",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列语句中，可以跳出循环结构的是（ ）。\ncontinue\nbreak\nif\nwhile",
+    "answer": ""
+  },
+  {
+    "id": "E056",
+    "chapter": "流程控制",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "简述break和continue语句的区别。",
+    "answer": "break语句用于结束整个循环；continue的作用是用来结束本次循环，紧接着执行下一次的循环。"
+  },
+  {
+    "id": "E057",
+    "chapter": "流程控制",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "简述while和for语句的区别。",
+    "answer": "（1）while语句"
+  },
+  {
+    "id": "E058",
+    "chapter": "流程控制",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "编写程序，实现利用while循环输出100以内偶数的功能。",
+    "answer": "答案：\nnum = 0\nwhile num <= 100:\nif num % 2 == 0:\nprint(num)\nnum += 1\n答案：\nnum = int(input(\"请输入一个数：\"))\nif num > 0:\nprint(\"输入的数是正数\")\nelif num < 0:\nprint(\"输入的数是负数\")\nelse:\nprint(\"输入的书是零\")\n答案：\ni = 2\nfor i in range(2, 100):\nj = 2\nfor j in range(2, i):\nif i % j == 0:\nbreak\nelse:\nprint(i)"
+  },
+  {
+    "id": "E059",
+    "chapter": "流程控制",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "编写程序，实现判断用户输入的数是正数还是负数的功能。",
+    "answer": ""
+  },
+  {
+    "id": "E060",
+    "chapter": "流程控制",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "编写程序，实现输出100以内质数的功能。",
+    "answer": ""
+  },
+  {
+    "id": "E061",
+    "chapter": "字符串",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "Python中可以使用      、双引号和三引号定义字符串。",
+    "answer": "单引号"
+  },
+  {
+    "id": "E062",
+    "chapter": "字符串",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "Python中使用      方法可以删除字符串中头部的空格。",
+    "answer": "ltrip()"
+  },
+  {
+    "id": "E063",
+    "chapter": "字符串",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "Python中可以使用      运算符拼接字符串。",
+    "answer": "+"
+  },
+  {
+    "id": "E064",
+    "chapter": "字符串",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "使用find()方法查找子串时，若没有查找到则返回________。",
+    "answer": "-1"
+  },
+  {
+    "id": "E065",
+    "chapter": "字符串",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "f-string在形式上以f或________标识字符串。",
+    "answer": "F"
+  },
+  {
+    "id": "E066",
+    "chapter": "字符串",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "字符串中不可以包含特殊字符。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E067",
+    "chapter": "字符串",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "无论是使用单引号或双引号定义的字符串，使用print()输出的结果一致。（ ）",
+    "answer": "√"
+  },
+  {
+    "id": "E068",
+    "chapter": "字符串",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "rjust()方法用于将字符串的字符以右对齐方式进行显示。（ ）",
+    "answer": "√"
+  },
+  {
+    "id": "E069",
+    "chapter": "字符串",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "find()方法返回-1说明子串在指定的字符串中。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E070",
+    "chapter": "字符串",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "strip()方法默认会删除字符串头尾的空格。（ ）",
+    "answer": "√"
+  },
+  {
+    "id": "E071",
+    "chapter": "字符串",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "Python中使用（ ）转义字符。\n/\n\\\n$\n%",
+    "answer": "B\nD\nA\nA\nD"
+  },
+  {
+    "id": "E072",
+    "chapter": "字符串",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列选项中，用于格式化字符串的是（ ）。\n%\nformat()\nf-string\n以上全部",
+    "answer": ""
+  },
+  {
+    "id": "E073",
+    "chapter": "字符串",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "关于字符串的说法中，下列描述错误的是（ ）。\n字符串创建后可以被修改\nPython中可以使用三引号定义字符串\n转义字符\\n表示换行符\n格式符均由%和说明转换类型的字符组成",
+    "answer": ""
+  },
+  {
+    "id": "E074",
+    "chapter": "字符串",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列方法中，可以将字符串中的字母全部转换为大写的是（ ）。\nupper()\nlower()\ntitle()\ncapitalize()",
+    "answer": ""
+  },
+  {
+    "id": "E075",
+    "chapter": "字符串",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列选项中，不属于字符串的是（ ）。\n\"1\"\n'python'\n\"\"\"^\"\"\"\n'1'.23",
+    "answer": ""
+  },
+  {
+    "id": "E076",
+    "chapter": "字符串",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "请简述什么是字符串。",
+    "answer": "字符串是由字母、符号或者数字组成的字符序列，Python中支持使用单引号、双引号和三引号定义字符串，其中单引号和双引号通常用于定义单行字符串，三引号（包括三单引号和三双引号）通常用于定义多行字符串。"
+  },
+  {
+    "id": "E077",
+    "chapter": "字符串",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "请简述Python中格式化字符串的几种方式。",
+    "answer": "Python有三种格式化字符串的方式：使用%格式化、使用format()方法格式化和使用f-string格式化字符串，其中使用%格式化字符串的基本格式为“format % values”，format表示需要被格式的字符串，该字符串中可以插入单个或多个为真实数据占位的格式符；使用format()方法格式化字符串的基本格式为str.format(values)，str表示需要被格式化的字符串，字符串中可以插入单个或多个为真实数据占位的符号{}；f-string只需要在字符串前加上引领的字符f或F即可，在字符串中的指定位置使用符号{}标明被替换的真实数据。"
+  },
+  {
+    "id": "E078",
+    "chapter": "字符串",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "请简述Python中字符串对齐的内置方法。",
+    "answer": "Python提供了center()、ljust()、rjust()这3个方法来设置字符串的对齐方式，center()方法表示居中对齐显示；ljust()方法表示左对齐显示；rjust()方法表示右对齐显示。"
+  },
+  {
+    "id": "E079",
+    "chapter": "字符串",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "编写程序，已知字符串s = 'AbcDeFGhIJ'，请计算该字符串中小写字母的数量。",
+    "answer": "答案：\ns = 'AbcDeFGhIJ'\ncount = 0\nfor i in s:\nfor j in s.lower():\nif i==j:\ncount+=1\nprint(count)\n答案：\nstring = \" Life is short. I use python\"\nif string.find('python'):\nnew_string =string.replace('python', 'Python')\nprint(new_string)\nelse:\nprint(string)"
+  },
+  {
+    "id": "E080",
+    "chapter": "字符串",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "编写程序，检查字符串\" Life is short. I use python\"中是否包含字符串\"python\"，若包含则替换为\"Python\"后输出新字符串，否则输出原字符串。",
+    "answer": ""
+  },
+  {
+    "id": "E081",
+    "chapter": "组合数据类型",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "使用内置的        函数可创建一个列表。",
+    "answer": "list()"
+  },
+  {
+    "id": "E082",
+    "chapter": "组合数据类型",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "Python中列表的元素可通过索引或        两种方式访问。",
+    "answer": "切片"
+  },
+  {
+    "id": "E083",
+    "chapter": "组合数据类型",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "使用内置的       函数可创建一个元组。",
+    "answer": "tuple()"
+  },
+  {
+    "id": "E084",
+    "chapter": "组合数据类型",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "字典元素由        和        组成。",
+    "answer": "键，值"
+  },
+  {
+    "id": "E085",
+    "chapter": "组合数据类型",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "字典中的键具有        性。",
+    "answer": "唯一"
+  },
+  {
+    "id": "E086",
+    "chapter": "组合数据类型",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "列表只能存储同一类型的数据。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E087",
+    "chapter": "组合数据类型",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "元组支持增加、删除和修改元素的操作。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E088",
+    "chapter": "组合数据类型",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "列表的索引从1开始。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E089",
+    "chapter": "组合数据类型",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "字典中的键唯一。（ ）",
+    "answer": "√"
+  },
+  {
+    "id": "E090",
+    "chapter": "组合数据类型",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "字典中的元素可通过索引方式访问。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E091",
+    "chapter": "组合数据类型",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列方法中，可以对列表元素排序的是（ ）。\nsort()\nreverse()\nmax()\nlist()\n阅读下面的程序：\nli_one = [2, 1, 5, 6]\nprint(sorted(li_one[:2]))",
+    "answer": "A\nA\nC\nB\nC"
+  },
+  {
+    "id": "E092",
+    "chapter": "组合数据类型",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "运行程序，输出结果是（ ）。\n[1 ,2]\n[2 ,1]\n[1 ,2 ,5 ,6]\n[6 ,5 ,2 ,1]",
+    "answer": ""
+  },
+  {
+    "id": "E093",
+    "chapter": "组合数据类型",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列方法中，默认删除列表最后一个元素的是（ ）。\ndel\nremove()\npop()\nextend()\n阅读下面程序：\nlan_info = {'01': 'Python', '02': 'Java', '03': 'PHP'}\nlan_info.update({'03': 'C++'})\nprint(lan_info)",
+    "answer": ""
+  },
+  {
+    "id": "E094",
+    "chapter": "组合数据类型",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "运行程序，输出结果是（ ）。\n{'01': 'Python', '02': 'Java', '03': 'PHP'}\n{'01': 'Python', '02': 'Java', '03': 'C++'}\n{'03': 'C++','01': 'Python', '02': 'Java'}\n{'01': 'Python', '02': 'Java'}\n阅读下面程序：\nset_01 = {'a', 'c', 'b', 'a'}\nset_01.add('d')\nprint(len(set_01))",
+    "answer": ""
+  },
+  {
+    "id": "E095",
+    "chapter": "组合数据类型",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "运行程序，输出结果是（ ）。\n5\n3\n4\n2",
+    "answer": ""
+  },
+  {
+    "id": "E096",
+    "chapter": "组合数据类型",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "列举Python中常用的组合数据类型，简单说明它们的异同。",
+    "answer": "Python中组合类型有列表、元组、字典和集合，这些数据类型都可以存储任意个元素。从访问元素来看，列表、元组和集合都可以通过索引获取数据，而字典类型数据没有索引；从存储数据来看，列表中的元素可以随意更改；存储在元组中的元素不可更改；存储在字典中键具有唯一性；存储在集合中的元素具有不重复性。"
+  },
+  {
+    "id": "E097",
+    "chapter": "组合数据类型",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "简单介绍删除字典元素的几种方式。",
+    "answer": "删除字典元素的方式有3种，分别为pop()、popitem()和clear()，pop()方法可以根据指定的键值删除字典中指定的元素；popitem()方法会随机删除字典中的元素；clear()方法会清空字典中的元素。"
+  },
+  {
+    "id": "E098",
+    "chapter": "组合数据类型",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "已知列表li_num1 = [4, 5, 2, 7]和li_num2 = [3, 6]，请将这两个列表合并为一个列表，并将合并后的列表中的元素按降序排列。",
+    "answer": "答案：\nli_num1 = [4, 5, 2, 7]\nli_num2 = [3, 6]\nli_num1.extend(li_num2)\nli_num1.sort(reverse=True)\nprint(li_num1)\n答案：\ntu_num1 = ('p', 'y', 't', ['o', 'n'])\ntu_num1[len(tu_num1)-1].append('h')\nprint(tu_num1)\n答案：\ndict_data = dict()\nstring= 'skdaskerkjsalkj'\nfor elem in string:\nif elem not in dict_data.keys():\ndict_data[elem] = 1\nelse:\ndict_data[elem] = dict_data[elem] + 1\nprint(dict_data)\n答案：\nli_one = [1,2,1,2,3,5,4,3,5,7,4,7,8]\nnew_li =[]\nfor i in li_one:\nif i not in new_li:\nnew_li.append(i)\nprint(new_li)"
+  },
+  {
+    "id": "E099",
+    "chapter": "组合数据类型",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "已知元组tu_num1 = ('p', 'y', 't', ['o', 'n'])，请向元组的最后一个列表中添加新元素“h”。",
+    "answer": ""
+  },
+  {
+    "id": "E100",
+    "chapter": "组合数据类型",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "已知字符串str= 'skdaskerkjsalkj'，请统计该字符串中各字母出现的次数。",
+    "answer": ""
+  },
+  {
+    "id": "E101",
+    "chapter": "组合数据类型",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "已知列表li_one = [1,2,1,2,3,5,4,3,5,7,4,7,8]，编写程序实现删除列表li_one中重复数据的功能。",
+    "answer": ""
+  },
+  {
+    "id": "E102",
+    "chapter": "函数",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "Python中使用关键字________定义一个函数。",
+    "answer": "close()"
+  },
+  {
+    "id": "E103",
+    "chapter": "函数",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "________函数是一类不需要命名的函数。",
+    "answer": "offset"
+  },
+  {
+    "id": "E104",
+    "chapter": "函数",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "若函数内部调用了自身，则这个函数被称为________。",
+    "answer": "一维数据"
+  },
+  {
+    "id": "E105",
+    "chapter": "函数",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "Python中使用________关键字可以在函数内部声明全局变量。",
+    "answer": "mkdir()"
+  },
+  {
+    "id": "E106",
+    "chapter": "函数",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "________变量是指在函数内部定义的变量，它只能在函数内部被使用。",
+    "answer": "绝对"
+  },
+  {
+    "id": "E107",
+    "chapter": "函数",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "函数在定义完成后会立刻执行。（ ）",
+    "answer": "√"
+  },
+  {
+    "id": "E108",
+    "chapter": "函数",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "变量在程序的任意位置都可以被访问。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E109",
+    "chapter": "函数",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "函数可以提高代码的复用性。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E110",
+    "chapter": "函数",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "任何函数内部都可以直接访问和修改全局变量。（ ）",
+    "answer": "√"
+  },
+  {
+    "id": "E111",
+    "chapter": "函数",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "函数的位置参数有严格的位置关系。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E112",
+    "chapter": "函数",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列关于函数的说法中，描述错误的是（ ）。\n函数可以减少重复的代码，使得程序更加模块化\n不同的函数中可以使用相同名字的变量\n调用函数时，实参的传递顺序与形参的顺序可以不同\n匿名函数与使用关键字def定义的函数没有区别",
+    "answer": "C\nD\nC\nB\nC\nD\nC"
+  },
+  {
+    "id": "E113",
+    "chapter": "函数",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "Python使用哪个关键字定义一个匿名函数？（ ）\nfunction\nfunc\ndef\nlambda",
+    "answer": ""
+  },
+  {
+    "id": "E114",
+    "chapter": "函数",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "Python使用哪个关键字自定义一个函数？（ ）\nfunction\nfunc\ndef\nlambda\n请阅读下面的代码：\nnum_one = 12\ndef sum(num_two):\nglobal num_one\nnum_one = 90\nreturn num_one + num_two\nprint(sum(10))",
+    "answer": ""
+  },
+  {
+    "id": "E115",
+    "chapter": "函数",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "运行代码，输出结果为（ ）。\n102\n100\n22\n12\n请阅读下面的代码：\ndef many_param(num_one, num_two, *args):\nprint(args)\nmany_param(11, 22, 33, 44, 55)",
+    "answer": ""
+  },
+  {
+    "id": "E116",
+    "chapter": "函数",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "运行代码，输出结果为（ ）。\n(11,22,33)\n(22,33,44)\n(33,44,55)\n(11,22)",
+    "answer": ""
+  },
+  {
+    "id": "E117",
+    "chapter": "函数",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "简述位置参数、关键字参数、默认参数传递的区别。",
+    "answer": "（1）文本文件是由字符组成的文件，它包含了可被人类读取和理解的文本信息。文本文件中的字符可以是字母、数字、标点符号和其他可输出字符。（2）二进制文件是由字节组成的文件，它以二进制形式存储数据，包含计算机能够直接解读和处理的信息。二进制文件可以包含各种类型的数据，如图像、音频、视频、可执行文件、数据库文件等，这类文件不能直接使用文字处理程序正常读写，必须使用关联程序才能正确获取文件信息。"
+  },
+  {
+    "id": "E118",
+    "chapter": "函数",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "简述函数参数混合传递的规则。",
+    "answer": "read()方法可以从指定文件中读取指定字节的数据；readline()方法可以从指定文件中读取一行数据；readlines()方法可以一次性读取文件中的所有数据，若读取成功返回一个列表，文件中的每一行对应列表中的一个元素。"
+  },
+  {
+    "id": "E119",
+    "chapter": "函数",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "简述局部变量和全局变量的区别。",
+    "answer": ""
+  },
+  {
+    "id": "E120",
+    "chapter": "函数",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "编写函数，输出1~100中偶数之和。",
+    "answer": "答案：\ndef file_read():\ndata_li = []\nwith open('file.txt', 'r',encoding='utf8') as file:\nfor data in file.readlines():\nif not data.startswith('#'):\ndata_li.append(data)\nreturn data_li\nprint(file_read())\n答案：\nold_file_name = input(\"请输入要拷贝的文件名字:\")\nold_file = open(old_file_name, 'r')\n# 如果打开文件\nif old_file:\n# 提取文件的后缀\nlocation_flag = old_file_name.rfind('.')\nif location_flag > 0:\nfile_flag = old_file_name[location_flag:]\n# 组织新的文件名字\nnew_file_name = old_file_name[:location_flag] + '[复件]' + file_flag\n# 创建新文件\nnew_file = open(new_file_name, 'w')\n# 把旧文件中的数据，一行一行地复制到新文件中\nfor line_content in old_file.readlines():\nnew_file.write(line_content)\n# 关闭文件\nold_file.close()\nnew_file.close()\n答案：\ndef num_sort():\nfile_li = []\nnum_li = []\nwith open('num.txt', 'r', encoding='utf8') as file:\ndata = file.readlines()\nfor i in data:\nfile_li.append(i.split(' '))\nfor file_elem in file_li:\nfor elem in file_elem:\nif elem.find('\\n'):\nnew_elem = elem.replace('\\n', '')\nnum_li.append(int(new_elem))\nelse:\nnum_li.append(int(elem))\nnum_li.sort()\nprint(num_li)\nnum_sort()"
+  },
+  {
+    "id": "E121",
+    "chapter": "函数",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "编写函数，计算20*19*18*…*3的结果。",
+    "answer": ""
+  },
+  {
+    "id": "E122",
+    "chapter": "函数",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "编写函数，判断用户输入的整数是否为回文数。回文数是一个正向和逆向都相同的整数，如123454321、9889。",
+    "answer": ""
+  },
+  {
+    "id": "E123",
+    "chapter": "函数",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "编写函数，判断用户输入的三个数字是否能作为边长构成三角形。",
+    "answer": ""
+  },
+  {
+    "id": "E124",
+    "chapter": "函数",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "编写函数，计算两个正整数的最小公倍数。",
+    "answer": ""
+  },
+  {
+    "id": "E125",
+    "chapter": "文件与数据格式",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "打开文件对文件进行读写后，应调用        方法关闭文件以释放资源。",
+    "answer": ""
+  },
+  {
+    "id": "E126",
+    "chapter": "文件与数据格式",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "seek()方法用于移动文件读写位置，该方法的        参数表示要偏移的字节数。",
+    "answer": ""
+  },
+  {
+    "id": "E127",
+    "chapter": "文件与数据格式",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "是一组具有对等关系的线性数据，类似于数学中的集合和一维数组。",
+    "answer": ""
+  },
+  {
+    "id": "E128",
+    "chapter": "文件与数据格式",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "os模块中的         ()函数用于创建目录。",
+    "answer": ""
+  },
+  {
+    "id": "E129",
+    "chapter": "文件与数据格式",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "路径从根目录开始完整地指定文件的位置",
+    "answer": ""
+  },
+  {
+    "id": "E130",
+    "chapter": "文件与数据格式",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "Python中打开文件时默认使用的模式为只读。（ ）",
+    "answer": ""
+  },
+  {
+    "id": "E131",
+    "chapter": "文件与数据格式",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "以读写方式打开一个文件，若文件已存在，文件内容会被清空。（ ）",
+    "answer": ""
+  },
+  {
+    "id": "E132",
+    "chapter": "文件与数据格式",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "使用write()方法写入文件时，数据会追加到文件的末尾。（ ）",
+    "answer": ""
+  },
+  {
+    "id": "E133",
+    "chapter": "文件与数据格式",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "Python中使用os模块中的函数实现目录相关的操作。（ ）",
+    "answer": ""
+  },
+  {
+    "id": "E134",
+    "chapter": "文件与数据格式",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "使用read()方法只能一次性读取文件中的所有数据。（ ）",
+    "answer": ""
+  },
+  {
+    "id": "E135",
+    "chapter": "文件与数据格式",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "若打开一个已有文件后在文件末尾添加数据，则应该使用下列哪种模式打开文件？（ ）\nr\nw\na\nw+",
+    "answer": ""
+  },
+  {
+    "id": "E136",
+    "chapter": "文件与数据格式",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "通过open()方法打开不存在的文件时，使用以下哪种模式打开会使程序报错？（ ）\nr\nw\na\nw+",
+    "answer": ""
+  },
+  {
+    "id": "E137",
+    "chapter": "文件与数据格式",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "假设file是文本文件对象，下列哪个选项用于读取file的一行内容？（ ）\nfile.read()\nfile.read(200)\nfile.readline()\nfile.readlines()",
+    "answer": ""
+  },
+  {
+    "id": "E138",
+    "chapter": "文件与数据格式",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列函数或方法中，用于向文件中写入数据的是（ ）。\nopen()\nwrite()\nclose()\nread()",
+    "answer": ""
+  },
+  {
+    "id": "E139",
+    "chapter": "文件与数据格式",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列函数或方法中，用于获取当前目录的是（ ）。\nopen()\nwrite()\ngetcwd()\nread()",
+    "answer": ""
+  },
+  {
+    "id": "E140",
+    "chapter": "文件与数据格式",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列代码要打开的文件应该在（ ）。\nf = open('itheima.txt', 'w')\nC盘根目录\nD盘根目录\nPython安装目录\n程序所在目录\n假设文本文件abc.txt中的内容如下：\nabcdef\n编写程序读取上述文本文件的数据，具体如下：\nfile = open('abc.txt', 'r')\ndata = file.readline()\ndata_list = list(data)\nprint(data_list)",
+    "answer": ""
+  },
+  {
+    "id": "E141",
+    "chapter": "文件与数据格式",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "以上程序执行后结果为（ ）。\n['abcdef']\n['abcdef\\n']\n['a', 'b', 'c', 'd', 'e', 'f']\n['a', 'b', 'c', 'd', 'e', 'f', '\\n']",
+    "answer": ""
+  },
+  {
+    "id": "E142",
+    "chapter": "文件与数据格式",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "请简述文本文件和二进制文件的区别。",
+    "answer": ""
+  },
+  {
+    "id": "E143",
+    "chapter": "文件与数据格式",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "请简述读取文件3种方法read()、readline()、readlines()的区别。",
+    "answer": ""
+  },
+  {
+    "id": "E144",
+    "chapter": "文件与数据格式",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "假设现有一个文件file.txt，该文件中的内容具体如下：\n# 这是一首李白写的诗\n金樽清酒斗十千，玉盘珍羞直万钱。\n停杯投箸不能食，拔剑四顾心茫然。\n欲渡黄河冰塞川，将登太行雪满山。\n闲来垂钓碧溪上，忽复乘舟梦日边。\n行路难！行路难！多歧路，今安在？\n长风破浪会有时，直挂云帆济沧海。",
+    "answer": ""
+  },
+  {
+    "id": "E145",
+    "chapter": "文件与数据格式",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "编写程序，从file.txt文件中逐行读取内容，但不会读取以#开头的行",
+    "answer": ""
+  },
+  {
+    "id": "E146",
+    "chapter": "文件与数据格式",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "编写程序，实现备份文件file.txt内容的功能，新文件的名称为file[复件].txt。",
+    "answer": ""
+  },
+  {
+    "id": "E147",
+    "chapter": "文件与数据格式",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "假设现有一个文件num.txt，该文件中的内容具体如下：\n10 6 55\n20\n80\n30\n50\n5\n8",
+    "answer": ""
+  },
+  {
+    "id": "E148",
+    "chapter": "文件与数据格式",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "编写程序，从num.txt文件中逐行读取内容，之后继续将每行的内容按照空格分割得到所有的数字，对所有的数字排序后进行输出。",
+    "answer": ""
+  },
+  {
+    "id": "E149",
+    "chapter": "面向对象",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "Python中使用________关键字来定义一个类。",
+    "answer": "class"
+  },
+  {
+    "id": "E150",
+    "chapter": "面向对象",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "类的成员包括________和________。",
+    "answer": "方法，属性"
+  },
+  {
+    "id": "E151",
+    "chapter": "面向对象",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "Python可以通过在类成员名称之前添加________的方式将公有成员改为私有成员。",
+    "answer": "双下画线"
+  },
+  {
+    "id": "E152",
+    "chapter": "面向对象",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "当一个类继承了另一个类，被继承的类称为________，继承其他类的类称为________。",
+    "answer": "父类或基类，子类或派生类"
+  },
+  {
+    "id": "E153",
+    "chapter": "面向对象",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "子类中使用________函数可以调用父类的方法。",
+    "answer": "super()"
+  },
+  {
+    "id": "E154",
+    "chapter": "面向对象",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "Python中通过类可以创建对象，有且只能创建一个对象。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E155",
+    "chapter": "面向对象",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "实例方法可以由类和对象调用。（ ）",
+    "answer": "√"
+  },
+  {
+    "id": "E156",
+    "chapter": "面向对象",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "子类能继承父类全部的属性和方法。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E157",
+    "chapter": "面向对象",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "创建类的对象时，解释器会自动调用构造方法进行初始化操作。（ ）",
+    "answer": "√"
+  },
+  {
+    "id": "E158",
+    "chapter": "面向对象",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "子类中不能重新实现从父类继承的方法。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E159",
+    "chapter": "面向对象",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列关于类的说法，错误的是（ ）。\n类中可以定义私有方法和属性\n类方法的第一个参数是cls\n实例方法的第一个参数是self\n类的实例无法访问类属性",
+    "answer": "D\nB\nB\nA\nA"
+  },
+  {
+    "id": "E160",
+    "chapter": "面向对象",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列方法中，只能由对象调用的是（ ）。\n类方法\n实例方法\n静态方法\n析构方法",
+    "answer": ""
+  },
+  {
+    "id": "E161",
+    "chapter": "面向对象",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列方法中，用于负责初始化属性的是（ ）。\n__del__()\n__init__()\n__init()\n__add__()",
+    "answer": ""
+  },
+  {
+    "id": "E162",
+    "chapter": "面向对象",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列选项中，不属于面向对象三大重要特性的是（ ）。\n抽象\n封装\n继承\n多态\n请阅读下面的代码：\nclass Test:\ncount = 21\ndef print_num(self):\ncount = 20\nself.count += 20\nprint(count)\ntest= Test()\ntest.print_num()",
+    "answer": ""
+  },
+  {
+    "id": "E163",
+    "chapter": "面向对象",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "运行代码，输出结果为（ ）。\n20\n40\n21\n41",
+    "answer": ""
+  },
+  {
+    "id": "E164",
+    "chapter": "面向对象",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "简述实例方法、类方法、静态方法的区别。",
+    "answer": "类方法需要使用@classmethod进行标识，该方法可以访问类属性，无法访问实例属性，可以通过类实例和类进行调用。静态方法使用@staticmethod进行标识，该方法无法访问实例属性和类属性，起到类似于函数的作用，使用类或者类实例进行调用。实例方法直接在类中使用def进行定义，可以访问其实例属性和类属性，使用类实例进行调用。如果要修改实例属性的值，就直接使用实例方法；如果要修改类属性的值，就直接使用类方法；如果是辅助功能，比如打印菜单，这时可以考虑使用静态方法，可以在不创建对象的前提下使用。"
+  },
+  {
+    "id": "E165",
+    "chapter": "面向对象",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "简述什么是封装、继承和多态。",
+    "answer": "封装是指隐藏类的实现细节，只提供访问类成员的公开接口；继承是指在一个现有类的基础上构建一个新的类；多态是指在不考虑对象类型的情况下使用对象。"
+  },
+  {
+    "id": "E166",
+    "chapter": "面向对象",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "定义一个Circle（圆）类，该类中包括属性radius（半径），还包括__init__()、get_perimeter()（计算周长）和get_area()（计算面积）方法。完成类的定义后，创建Circle类的对象，并计算圆的周长和面积。",
+    "answer": "答案：\nclass Circle:\ndef __init__(self,tup, radius, color):\nself.center = tup\nself.radius = radius\nself.color = color\ndef perimeter(self):\nreturn 3.14 * 2 * self.radius\ndef area(self):\nreturn 3.14 * self.radius * self.radius\ncircle = Circle((0,0),5,\"蓝色\")\nprint(circle.perimeter())\nprint(circle.area())\n答案：\nclass Course:\ndef __init__(self):\nself.number = 1001\nself.name = \"语文\"\nself.teacher = \"张老师\"\nself.__location = \"2号教学楼3层305室\"\ndef show_info(self):\nreturn (\"\"\"\n课程编号：%d\n课程名称：%s\n任课教师：%s\n上课地点：%s\n\"\"\" % (self.number, self.name, self.teacher, self.__location))\ncourse = Course()\nprint(course.show_info())"
+  },
+  {
+    "id": "E167",
+    "chapter": "面向对象",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "定义一个Course（课程）类，该类中包括属性number（编号）、name（名称）、teacher（任课教师）、location（上课地点）用于描述课程信息，其中location是私有属性，除此之外，该类还包括__init__()、show_info()（显示课程信息）方法。完成类的定义后，创建Course类的对象，并显示课程的信息。",
+    "answer": ""
+  },
+  {
+    "id": "E168",
+    "chapter": "异常",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "Python中所有异常都是______的子类。",
+    "answer": "BaseException"
+  },
+  {
+    "id": "E169",
+    "chapter": "异常",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "当程序中使用了一个未定义的变量时会引发______异常。",
+    "answer": "NameError"
+  },
+  {
+    "id": "E170",
+    "chapter": "异常",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "自定义异常需要继承______类。",
+    "answer": "Exception"
+  },
+  {
+    "id": "E171",
+    "chapter": "异常",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "若不满足assert语句中的表达式会使程序抛出______异常。",
+    "answer": "AssertionError"
+  },
+  {
+    "id": "E172",
+    "chapter": "异常",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "Python使用______语句可以重新抛出刚刚发生的异常。",
+    "answer": "raise"
+  },
+  {
+    "id": "E173",
+    "chapter": "异常",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "try-except语句中只能有一个except子句。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E174",
+    "chapter": "异常",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "finally子句在任何情况下一定会被执行。（ ）",
+    "answer": "√"
+  },
+  {
+    "id": "E175",
+    "chapter": "异常",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "raise语句可以抛出指定的异常。（ ）",
+    "answer": "√"
+  },
+  {
+    "id": "E176",
+    "chapter": "异常",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "如果一个程序没有捕获与处理异常，那么它出现异常时会终止运行。（ ）",
+    "answer": "√"
+  },
+  {
+    "id": "E177",
+    "chapter": "异常",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "try-except语句可以有多个finally子句。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E178",
+    "chapter": "异常",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列关于异常的描述，错误的是（ ）。\n程序执行时检测到的错误称为异常\n异常是程序运行时产生的\n含有语法错误的程序会引发异常，无法正常运行\n自定义异常类时只能继承Exception类",
+    "answer": "D\nB\nA\nB\nB"
+  },
+  {
+    "id": "E179",
+    "chapter": "异常",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "当try子句中的代码没有任何异常时，一定不会执行以下哪个子句？（ ）\ntry\nexcept\nelse\nfinally",
+    "answer": ""
+  },
+  {
+    "id": "E180",
+    "chapter": "异常",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "若执行代码1/0，会引发什么异常？（ ）\nZeroDivisionError\nNameError\nKeyError\nIndexError",
+    "answer": ""
+  },
+  {
+    "id": "E181",
+    "chapter": "异常",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列关于try-except语句的说法中，错误的是（ ）。\n若try子句中的代码没有出现异常，则忽略except子句中的代码\n程序捕获到异常会先执行完except子句，再继续执行try子句\n若执行try子句中的代码时出现异常，则会执行except子句中的代码\nexcept子句可以指定捕获的异常类",
+    "answer": ""
+  },
+  {
+    "id": "E182",
+    "chapter": "异常",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "阅读下面一段代码，代码运行后会出现什么异常？（ ）\nnum_li = [1, 2, 3]\nprint(num_li[3])\nSyntaxError\nIndexError\nKeyError\nNameError",
+    "answer": ""
+  },
+  {
+    "id": "E183",
+    "chapter": "异常",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "请简述3种异常类型并说明产生的原因。",
+    "answer": "Exception类常见的异常子类有NameError、FileNotFoundError、IndexError、AttributeError，其中NameError异常产生的原因是使用了未定义的变量；FileNotFoundError异常是打开不存在的文件；IndexError异常是访问了规定索引之外的数据；AttributeError异常产生的原因是使用对象访问不存在的属性引发的。"
+  },
+  {
+    "id": "E184",
+    "chapter": "异常",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "请写出抛出异常的3种格式，并简单介绍每种格式的功能。",
+    "answer": "Python中抛出异常的方式主要有raise 异常类、raise 异常对象、raise，其中第一种方式是使用异常类名引发指定的异常，第二种方式是使用异常类的对象引发指定的异常，第三种方式是使用刚出现过的异常重新引发异常。"
+  },
+  {
+    "id": "E185",
+    "chapter": "异常",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "编写程序，计算圆的面积，若半径为负值则抛出异常。提示，圆的面积公式为。",
+    "answer": "答案：\nclass NumericalError(Exception):\ndef __init__(self):\nself.message = '请输入正确的数据'\nclass CircleArea:\ndef circle(self):\ntry:\nradius = int(input(\"请输入圆的半径：\\n\"))\nif radius <0:\nraise NumericalError()\nexcept NumericalError as e:\nprint(e.message)\nelse:\n# 计算圆的面积\nprint(3.14*radius**2)\ncircle_area = CircleArea()\ncircle_area.circle()\n答案：\nclass MessageError(Exception):\ndef __init__(self):\nself.no_message = '不能构成三角形'\nclass Triangle:\ndef composed_triangle(self):\nside_length_one = int(input(\"请输入第一个边长：\\n\"))\nside_length_two = int(input(\"请输入第二个边长：\\n\"))\nside_length_three = int(input(\"请输入第三个边长：\\n\"))\ntry:\nif not (side_length_one + side_length_two > side_length_three and\nside_length_one + side_length_three > side_length_two and\nside_length_two + side_length_three > side_length_one):\nraise MessageError()\nexcept MessageError as e:\nprint(e.no_message)\nelse:\nprint('可以构成')\ntriangle = Triangle()\ntriangle.composed_triangle()"
+  },
+  {
+    "id": "E186",
+    "chapter": "异常",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "编写程序，输入三角形三条边判断能否构成直角三角形，若能构成则计算三角形的面积和周长，否则抛出异常。",
+    "answer": ""
+  },
+  {
+    "id": "E187",
+    "chapter": "Python计算生态与常用库",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "是一种按照一定的规则自动从网络上抓取信息的程序或者脚本。",
+    "answer": "网络爬虫"
+  },
+  {
+    "id": "E188",
+    "chapter": "Python计算生态与常用库",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "是由Python语言和其周边生态系统所构成的一系列工具、框架、库和应用。",
+    "answer": "Python计算生态"
+  },
+  {
+    "id": "E189",
+    "chapter": "Python计算生态与常用库",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "Python中time()函数用于返回一个浮点数表示的        。",
+    "answer": "时间戳"
+  },
+  {
+    "id": "E190",
+    "chapter": "Python计算生态与常用库",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "Python中的        库用于生成随机数。",
+    "answer": "random"
+  },
+  {
+    "id": "E191",
+    "chapter": "Python计算生态与常用库",
+    "qtype": "填空题",
+    "difficulty": "简单",
+    "question": "是为开发2D游戏而设计的Python跨平台模块。",
+    "answer": "Pygame"
+  },
+  {
+    "id": "E192",
+    "chapter": "Python计算生态与常用库",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "用户既可以在程序中使用内置库，也可以使用第三方库。（ ）",
+    "answer": "√"
+  },
+  {
+    "id": "E193",
+    "chapter": "Python计算生态与常用库",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "Python中内置库与第三方库的使用方式相同，但使用第三方库之前需要先将库导入程序。（ ）",
+    "answer": "√"
+  },
+  {
+    "id": "E194",
+    "chapter": "Python计算生态与常用库",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "当一个模块__name__的取值为“__main__”时，说明模块被导入了其他程序。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E195",
+    "chapter": "Python计算生态与常用库",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "Pygame库中的init()函数可以初始化所有子模块。（ ）",
+    "answer": "√"
+  },
+  {
+    "id": "E196",
+    "chapter": "Python计算生态与常用库",
+    "qtype": "判断题",
+    "difficulty": "简单",
+    "question": "Turtle坐标体系以窗口左上角为原点，原点右侧和上方分别为x轴正方向、y轴正方向。（ ）",
+    "answer": "×"
+  },
+  {
+    "id": "E197",
+    "chapter": "Python计算生态与常用库",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列选项中，用于在Turtle库中移动画笔到指定位置的函数是（ ）。\nsetup()\ndone()\nforward()\ngoto()",
+    "answer": "D\nD\nB\nA\nB"
+  },
+  {
+    "id": "E198",
+    "chapter": "Python计算生态与常用库",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列选项中，不会在发布自定义库时用到的是（ ）。\npython setup.py build\npython setup.py sdist\npython setup.py install\n以上全部",
+    "answer": ""
+  },
+  {
+    "id": "E199",
+    "chapter": "Python计算生态与常用库",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列选项中，返回结果是时间戳的方法是（ ）。\ntime.sleep()\ntime.localtime()\ntime.strftime()\ntime.ctime()\n阅读下面的代码片段：\ngmtime = time.gmtime()\ntime.asctime(gmtime)",
+    "answer": ""
+  },
+  {
+    "id": "E200",
+    "chapter": "Python计算生态与常用库",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列选项中，可能为以上程序输出结果的是（ ）。\nMon Apr 13 02:05:38 2020\ntime.struct_time(tm_year=2020, tm_mon=4, tm_mday=11, tm_hour=11, tm_min=54, tm_sec=42, tm_wday=5, tm_yday=102, tm_isdst=-1)\n3173490635.1554217\n11:54:42\n阅读下面的代码片段：\nrandom.randrange(1, 10, 2)",
+    "answer": ""
+  },
+  {
+    "id": "E201",
+    "chapter": "Python计算生态与常用库",
+    "qtype": "选择题",
+    "difficulty": "中等",
+    "question": "下列选项中，不可能为以上程序输出结果的是（ ）。\n1\n4\n7\n9",
+    "answer": ""
+  },
+  {
+    "id": "E202",
+    "chapter": "Python计算生态与常用库",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "简单列举Python计算生态覆盖的领域（至少5个）。",
+    "answer": "Python计算生态是指由Python语言和其周边生态系统所构成的一系列工具、框架、库和应用，用于解决各种计算问题和开发需求。Python计算生态涵盖网络爬虫、数据分析、文本处理、数据可视化、图形用户界面、机器学习、Web开发、网络应用开发、游戏开发、虚拟现实、图形艺术等多个领域。"
+  },
+  {
+    "id": "E203",
+    "chapter": "Python计算生态与常用库",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "简述介绍Python中库、包和模块的概念。",
+    "answer": "Python中的库分为标准库和第三方库，标准库可以在Python中直接使用，第三方库需要进行安装；模块本质上是一个包含Python代码片段的.py文件；将模块放入到一个文件夹中，并在该文件夹中创建__init__.py文件，就构建了一个Python包。"
+  },
+  {
+    "id": "E204",
+    "chapter": "Python计算生态与常用库",
+    "qtype": "简答题",
+    "difficulty": "中等",
+    "question": "若想对两个表示时间的变量进行计算，应将时间转换为什么格式？为什么？",
+    "answer": "若两个表示时间的变量进行计算，可以先将其转换为时间戳形式。因为时间戳是以浮点型显示，便于时间计算与转换。"
+  },
+  {
+    "id": "E205",
+    "chapter": "Python计算生态与常用库",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "编写程序，通过turtle库绘制一些几何图形，具体如图10-24所示。\n图10-24 几何图形",
+    "answer": "答案：\nimport turtle\n# 设置标题\nturtle.title('几何图形')\n# 设置画笔尺寸\nturtle.pensize(3)\n# 绘制正三角形\nturtle.penup()\nturtle.goto(-200, -50)       # 将画笔移动到正三角形底部的顶点位置\nturtle.pendown()\nturtle.begin_fill()\nturtle.color('red')           # 设置画笔颜色为红色\nturtle.circle(40, steps=3)  # 绘制图形，指定步长为3\nturtle.end_fill()\n# 绘制正菱形\nturtle.penup()\nturtle.goto(-100, -50)       # 将画笔移动到正菱形底部的顶点位置\nturtle.pendown()\nturtle.begin_fill()\nturtle.color('blue')         # 设置画笔颜色为蓝色\nturtle.circle(40, steps=4)  # 绘制图形，指定步长为4\nturtle.end_fill()\n# 绘制正五边形\nturtle.penup()\nturtle.goto((0, -50))         # 将画笔移动到正五边形底部的顶点位置\nturtle.pendown()\nturtle.begin_fill()\nturtle.color('yellow')        # 设置画笔颜色为黄色\nturtle.circle(40, steps=5)   # 绘制图形，指定步长为5\nturtle.end_fill()\n# 绘制正六边形\nturtle.penup()\nturtle.goto(100, -50)        # 将画笔移动到正六边形底部的顶点位置\nturtle.pendown()\nturtle.begin_fill()\nturtle.color('green')        # 设置画笔颜色为绿色\nturtle.circle(40, steps=6)  # 绘制图形，指定步长为6\nturtle.end_fill()\n# 绘制圆形\nturtle.penup()\nturtle.goto(200, -50)        # 将画笔移动到圆形底部的顶点位置\nturtle.pendown()\nturtle.begin_fill()\nturtle.color('purple')      # 设置画笔颜色为紫色\nturtle.circle(40)\nturtle.end_fill()            # 绘制图形，未指定步长\nturtle.done()\n答案：\nimport wordcloud\nfrom matplotlib.image import imread\nfont = 'AdobeHeitiStd-Regular.otf'\n# 用于生成词云的字符串\nwith open('葫芦兄弟.txt','r',encoding='utf-8')as file:\nstring = str(file.read())\n# 词云形状\nmk = imread('葫芦娃.jpg')\n# 创建词云对象\nw = wordcloud.WordCloud(font_path=font, mask=mk,\nmax_words=500,background_color='white')\n# 加载文本\nw.generate(string)\n# 生成词云\nw.to_file('葫芦娃.png')"
+  },
+  {
+    "id": "E206",
+    "chapter": "Python计算生态与常用库",
+    "qtype": "编程题",
+    "difficulty": "进阶",
+    "question": "编写程序，实现一个根据可根据指定文本文件“葫芦兄弟.txt”和图片文件“葫芦娃.jpg”生成指定形状词云的程序。",
+    "answer": ""
+  }
+]
