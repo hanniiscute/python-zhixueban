@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>项目完善指南 · 个性化学习智能体系统</title>
+<style>
+  :root{
+    --bg:#f7f8fa; --card:#ffffff; --ink:#1f2430; --muted:#6b7280; --line:#e5e7eb;
+    --blue:#3b6fe0; --blue-bg:#eef3fd; --green:#0f9d6e; --green-bg:#e9f7f1;
+    --amber:#b7791f; --amber-bg:#fdf6e7; --red:#d13c3c; --red-bg:#fdeeee;
+    --purple:#7c5cd6; --purple-bg:#f3effd;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font-family:"Microsoft YaHei","PingFang SC",system-ui,-apple-system,sans-serif;
+       line-height:1.75;font-size:15px}
+  .wrap{max-width:960px;margin:0 auto;padding:40px 24px 80px}
+  h1{font-size:27px;margin:0 0 6px;letter-spacing:.5px}
+  h2{font-size:19px;margin:46px 0 14px;padding-left:12px;border-left:4px solid var(--blue)}
+  h3{font-size:16px;margin:26px 0 10px}
+  p{margin:8px 0}
+  .sub{color:var(--muted);font-size:14px;margin-bottom:22px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px 24px;margin:14px 0}
+  table{width:100%;border-collapse:collapse;font-size:14px;margin:12px 0}
+  th{background:#f2f4f7;text-align:left;padding:9px 12px;border:1px solid var(--line);font-weight:600;white-space:nowrap}
+  td{padding:9px 12px;border:1px solid var(--line);vertical-align:top}
+  tr:nth-child(even) td{background:#fbfcfd}
+  code{background:#eef1f5;border:1px solid #e2e6ec;border-radius:4px;padding:1px 6px;
+       font-family:Consolas,"Courier New",monospace;font-size:13px;color:#b3346d;word-break:break-all}
+  pre{background:#1e2530;color:#dfe6f0;border-radius:10px;padding:16px 18px;overflow-x:auto;
+      font-family:Consolas,"Courier New",monospace;font-size:13px;line-height:1.65;margin:12px 0}
+  pre code{background:none;border:none;color:inherit;padding:0}
+  .badge{display:inline-block;font-size:12px;font-weight:600;padding:3px 10px;border-radius:20px;margin-right:6px}
+  .b-green{background:var(--green-bg);color:var(--green)}
+  .b-red{background:var(--red-bg);color:var(--red)}
+  .b-amber{background:var(--amber-bg);color:var(--amber)}
+  .b-blue{background:var(--blue-bg);color:var(--blue)}
+  .tag{font-size:12px;color:#fff;border-radius:5px;padding:2px 8px;font-weight:600;white-space:nowrap}
+  .t-red{background:var(--red)} .t-amber{background:var(--amber)} .t-blue{background:var(--blue)}
+  .flow{background:#fff;border:1px dashed var(--line);border-radius:10px;padding:16px;
+        font-family:Consolas,monospace;font-size:13px;overflow-x:auto;white-space:pre;line-height:1.9;color:#374151}
+  .note{background:var(--amber-bg);border-left:4px solid var(--amber);padding:12px 16px;border-radius:0 8px 8px 0;margin:12px 0;font-size:14px}
+  .good{background:var(--green-bg);border-left:4px solid var(--green);padding:12px 16px;border-radius:0 8px 8px 0;margin:12px 0;font-size:14px}
+  .bad{background:var(--red-bg);border-left:4px solid var(--red);padding:12px 16px;border-radius:0 8px 8px 0;margin:12px 0;font-size:14px}
+  ul{margin:8px 0;padding-left:22px}
+  li{margin:4px 0}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:16px 0}
+  .kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;text-align:center}
+  .kpi .n{font-size:22px;font-weight:700;color:var(--blue)}
+  .kpi .l{font-size:12px;color:var(--muted);margin-top:2px}
+  .toc{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 24px;margin:18px 0}
+  .toc a{color:var(--blue);text-decoration:none}
+  .toc a:hover{text-decoration:underline}
+  footer{margin-top:50px;color:var(--muted);font-size:12.5px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>🧭 项目完善指南</h1>
+  <div class="sub">个性化学习智能体系统 · 现状盘点 + 修复记录 + 后续路线 　<span class="badge b-green">✅ 已可运行</span><span class="badge b-blue">前后端联调通过</span></div>
+
+  <div class="toc">
+    <b>目录</b>　
+    <a href="#s1">① 这是个什么项目</a> ·
+    <a href="#s2">② 为什么你之前打不开</a> ·
+    <a href="#s3">③ 我已经帮你修好的 5 处</a> ·
+    <a href="#s4">④ 还没做完的（完善路线图）</a> ·
+    <a href="#s5">⑤ 日常怎么启动</a> ·
+    <a href="#s6">⑥ 代码地图：想改哪里去哪个文件</a>
+  </div>
+
+  <!-- ============ 1 ============ -->
+  <h2 id="s1">① 这是个什么项目</h2>
+  <div class="card">
+    <p>一句话：<b>一个面向大学生的 "AI 私教" 学习网站</b>。学生用自然语言跟 AI 聊天，
+    系统在聊天过程中<b>自动摸清学生的学习底细</b>，然后<b>按人定制</b>学习路线、生成讲义、出题、写代码示例、画思维导图、出学习报告。</p>
+
+    <div class="kpis">
+      <div class="kpi"><div class="n">8</div><div class="l">智能体</div></div>
+      <div class="kpi"><div class="n">7</div><div class="l">画像维度</div></div>
+      <div class="kpi"><div class="n">11</div><div class="l">教材PPT已入库</div></div>
+      <div class="kpi"><div class="n">206</div><div class="l">习题已索引</div></div>
+      <div class="kpi"><div class="n">51</div><div class="l">学习路径知识点</div></div>
+    </div>
+
+    <table>
+      <tr><th style="width:110px">组成</th><th>技术</th><th>干什么用</th></tr>
+      <tr><td>前端</td><td>Vue 3 + Vite + Pinia</td><td>网站界面（登录、聊天、画像雷达图、路径时间轴、评估报告）</td></tr>
+      <tr><td>后端</td><td>Python FastAPI</td><td>所有接口 + 流式输出（SSE，打字机效果）</td></tr>
+      <tr><td>数据库</td><td>MySQL 8.0</td><td>用户、会话、画像、生成的资源、学习记录（8 张表）</td></tr>
+      <tr><td>检索</td><td>FAISS + TF-IDF/SVD</td><td>从教材PPT和习题库里"语义搜索"相关内容喂给 AI（RAG）</td></tr>
+      <tr><td>大模型</td><td>讯飞星火 v4.0</td><td>生成所有对话和内容（密钥在 <code>backend/.env</code>，已实测可用）</td></tr>
+    </table>
+
+    <div class="flow">用户发消息 → 意图识别（关键词 + 语义相似度）
+   ├─ 说自己的情况        → 画像智能体  自动提取背景
+   ├─ "讲讲 / 什么是"     → 内容智能体  生成 Markdown 讲义卡片
+   ├─ "思维导图"          → 导图智能体  生成 Mermaid 导图卡片
+   ├─ "出题 / 练习"       → 出题智能体  生成三级难度题目
+   ├─ "写代码 / 做项目"   → 代码智能体  生成 Jupyter Notebook
+   ├─ "学习路线 / 计划"   → 路径智能体  按知识图谱排路线
+   └─ "为什么报错"        → 答疑智能体  混合形式解答
+
+同时：每 5 条消息在后台静默更新一次画像；检索器把教材内容注入提示词</div>
+  </div>
+
+  <!-- ============ 2 ============ -->
+  <h2 id="s2">② 为什么你之前打不开</h2>
+  <div class="card">
+    <div class="bad"><b>根因（一个文件，两段历史）。</b>
+    这个项目<b>早期用 SQLite 存数据，后来迁移到了 MySQL，但只迁了一半</b>：</div>
+    <ul>
+      <li>文件还叫 <code>app/db/sqlite_client.py</code>（名字没改），<b>但里面装的已经是 MySQL 客户端</b>，建表脚本 <code>migrations.py</code> 也全是 MySQL 语法；</li>
+      <li>README 却还在写 "SQLite"，另一份文档写的是 ChromaDB —— 跟实际代码对不上，这就是你看不懂的最大原因之一；</li>
+      <li>最致命的是：程序<b>一启动就立刻连 MySQL 的 <code>agents</code> 库</b>，而你电脑的 MySQL 里<b>没有这个库</b>，于是 <code>Unknown database 'agents'</code>，整个后端直接崩，前端自然白屏。</li>
+    </ul>
+    <p>实测复现的报错：</p>
+    <pre><code>pymysql.err.OperationalError: (1049, "Unknown database 'agents'")
+  File "...\app\db\sqlite_client.py", line 90, in &lt;module&gt;
+      db = MySQLClient()          ← 导入时就建连接池，库不存在 → 直接炸</code></pre>
+    <div class="good"><b>好消息：</b>除此之外项目本身相当完整。我把库建好后，注册、登录、
+    流式对话、画像提取、讲义/导图/出题/代码/路径生成，<b>全部实测跑通</b>，星火 API 密钥也是有效的。</div>
+  </div>
+
+  <!-- ============ 3 ============ -->
+  <h2 id="s3">③ 我已经帮你修好的 5 处</h2>
+  <div class="card">
+    <table>
+      <tr><th style="width:36px">#</th><th style="width:250px">文件</th><th>修了什么</th></tr>
+      <tr>
+        <td>1</td>
+        <td><code>app/db/sqlite_client.py</code></td>
+        <td><b>【关键】</b>启动时自动创建缺失的数据库和 8 张表。以后<b>不用再手动建库</b>，换台电脑装好 MySQL 就能直接跑。文件顶部补了一段说明，讲清"文件名叫 sqlite 实际是 MySQL"这段历史。</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td><code>main.py</code></td>
+        <td>启动日志还在打"SQLite 数据库表初始化完成"，容易误导看日志的人，已改成 MySQL。</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td><code>app/core/orchestrator.py</code></td>
+        <td><b>意图识别 bug：</b>"评估一下我的学习进展"这类话<b>永远进不了评估逻辑</b>——因为"画像"的关键词表里也有"评估"，而匹配是按顺序取第一个命中的，画像排在前面，评估被永远遮住了。已把评估类短语提为强信号关键词，实测能正确识别。</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td><code>app/core/orchestrator.py</code></td>
+        <td><b>讲义无法生成：</b>"给我<b>讲讲</b> for 循环"里没有"讲解/学习/什么是"这些词，被当成普通提问，<b>不会生成讲义卡片</b>。补了"讲讲/讲一下/说说/解释/原理"等口语说法。实测：现在会生成 document 讲义卡片。</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td><code>app/agents/profiler.py</code><br><code>app/api/profile.py</code></td>
+        <td><b>画像数据错乱：</b>AI 返回的数组（比如已知概念 ["Java","Python"]）被 <code>str()</code> 直接转成字符串存库，读出来变成 <code>["['Java']"]</code> 这种<b>套了两层的假数组</b>，雷达图和画像面板会显示一串乱糟糟的字符。改成存标准 JSON、读取时正确还原，并对多值字段（已知概念/兴趣方向/易错点等）统一处理。</td>
+      </tr>
+    </table>
+    <div class="good"><b>修复后的实测结果（真实跑出来的，不是猜的）：</b>
+      <table>
+        <tr><th>测试输入</th><th>修复前</th><th>修复后</th></tr>
+        <tr><td>"我学过Java，想用Python做数据分析，每天能学2小时"</td><td>✅ 正常</td><td>✅ 正常，自动提取 5 条画像</td></tr>
+        <tr><td>"给我讲讲Python的for循环"</td><td>❌ 误判，不生成讲义</td><td>✅ 生成讲义卡片（1557 字）</td></tr>
+        <tr><td>"评估一下我的学习进展"</td><td>❌ 被画像关键词抢走</td><td>✅ 正确识别为评估</td></tr>
+        <tr><td>画像读取</td><td>❌ <code>["['Java']"]</code></td><td>✅ <code>["Java"]</code></td></tr>
+        <tr><td>前端构建</td><td>—</td><td>✅ 零错误（12 秒）</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- ============ 4 ============ -->
+  <h2 id="s4">④ 还没做完的 —— 这就是你要"完善"的清单</h2>
+  <div class="card">
+    <p>按优先级排。<b>做之前先看第 ⑥ 节的代码地图</b>，知道去哪改。</p>
+
+    <h3><span class="tag t-red">P0</span> 建议尽快处理</h3>
+    <table>
+      <tr><th style="width:230px">问题</th><th>在哪 / 怎么做</th></tr>
+      <tr>
+        <td><b>评估意图没有"真数据"</b><br><span class="badge b-green">✅ 已完成 2026-10-03</span></td>
+        <td>已修复：新建 <code>app/agents/evaluator.py</code>（EvaluateAgent），先复用 <code>/api/evaluation</code> 的统计逻辑从数据库算真实数字，再让星火按给定数据写报告（提示词里明令禁止编造数字）；<code>orchestrator.py</code> 的 <code>INTENT_AGENT["evaluate"]</code> 已改为 <code>evaluator</code>，并在 <code>chat.py</code> 注册；同时把 evaluate 加入了画像冷启动豁免名单（否则新会话的评估请求会被劫持去收集画像）。实测：插入 5 主题（2 完成）+120 分钟 +练习 4/5 后，报告精确输出 40% / 120 分钟 / 80%。零记录时如实说"还没有学习记录"并给起步建议。</td>
+      </tr>
+      <tr>
+        <td><b>答疑历史接口是空壳</b><br><span class="badge b-green">✅ 已完成 2026-10-03</span></td>
+        <td><code>app/api/tutoring.py</code> 原本只返回写死的 <code>{"total":0}</code>。<br><b>已实现：</b>从 <code>chat_messages</code> 提取「提问 → 解答」配对（识别"为什么/报错/怎么办/？"类提问），按时间倒序分页返回，含回答状态与时间。实测：答疑前后 total 从 0 → 1，问答配对正确。</td>
+      </tr>
+      <tr>
+        <td><b>出题智能体把口语当知识点</b><br><span class="badge b-green">✅ 已完成 2026-10-03</span></td>
+        <td>用户发「我要三道练习题」，AI 会出「关于'我要三道'的题」。<b>已修复：</b>① <code>_clean_topic</code> 重写（正则去数量短语和动词残留，无知识点时默认 Python基础）；② 新增题数解析「三道→3」，难度分布按题数缩放（原来永远硬编码 5 道）；③ 用干净的 <code>QUIZ_FORMAT_SPEC</code> 替换 <code>quiz_templates.json</code> 原始模板注入（原模板示例文字会被 AI 抄成题干）；④ 解析失败先强约束重试一次再走兜底。</td>
+      </tr>
+      <tr>
+        <td><b>两份文档是错的</b><br><span class="badge b-green">✅ 已完成 2026-10-03</span></td>
+        <td>两份架构文档已<b>按实际代码重写</b>：ChromaDB/2560维 Embedding 的描述全部改为真实的 FAISS + 离线 TF-IDF+SVD 256 维方案，智能体清单更正为实际的 7 个文件（含新增的 evaluator），补上 /api/tutoring 接口，删掉不存在的 ReadingAgent，标注了弃用的 embedder.py 遗留文件。现在文档与代码一一对应，可以放心照着学。</td>
+      </tr>
+    </table>
+
+    <h3><span class="tag t-amber">P1</span> 影响质量与安全</h3>
+    <table>
+      <tr><th style="width:230px">问题</th><th>在哪 / 怎么做</th></tr>
+      <tr>
+        <td><b>RAG 检索质量存疑</b><br><span class="badge b-green">✅ 已完成 2026-10-03</span></td>
+        <td>已用当前 sklearn 1.9.1 <b>重新训练向量模型</b>（TF-IDF char_wb 字符 n-gram，与原模型配置一致，方差解释率 93.3%）并重建 FAISS 双索引，启动日志 <code>InconsistentVersionWarning</code> 已清零，中文检索验证 5/5 命中。以后换环境重训一条命令：<code>python retrain_index.py</code>（项目根目录新增的维护脚本）。</td>
+      </tr>
+      <tr>
+        <td><b>登录是"假 token"</b><br><span class="badge b-green">✅ 已完成 2026-10-03</span></td>
+        <td>已改为 <b>HMAC-SHA256 签名 token</b>（7 天有效期，密钥自动生成存 <code>data/.token_secret</code>）。后端全局中间件校验所有 <code>/api/*</code> 接口（注册/登录除外），并校验<b>会话归属</b>（A 的 token 访问 B 的会话返回 403）；前端所有请求统一带 <code>Authorization</code> 头。七场景安全实测全部通过。新增 <code>GET /api/auth/verify</code> 供前端恢复登录态。</td>
+      </tr>
+      <tr>
+        <td><b>密钥已经泄露在压缩包里</b><br><span class="badge b-green">✅ 已完成 2026-10-03</span></td>
+        <td>你已在讯飞控制台重置密钥，新三件套已写入 <code>backend/.env</code> 并实测生效，旧密钥作废。建议以后打包只放 <code>.env.example</code> 模板。</td>
+      </tr>
+      <tr>
+        <td><b>画像表会无限堆积</b><br><span class="badge b-green">✅ 已完成 2026-10-03</span></td>
+        <td>已给 <code>(user_id, dimension, field)</code> 加<b>唯一约束</b>（老数据已自动去重：51 行 → 20 行），写入端改为 <code>ON DUPLICATE KEY UPDATE</code>（新值直接覆盖）。实测同一句话提取两次行数不增。约束在启动时幂等添加，新旧库都兼容。</td>
+      </tr>
+    </table>
+
+    <h3><span class="tag t-blue">P2</span> 打理与体验</h3>
+    <table>
+      <tr><th style="width:230px">问题</th><th>在哪 / 怎么做</th></tr>
+      <tr>
+        <td><b>压缩包塞了 2.4 万个垃圾文件</b><br><span class="badge b-green">✅ 已完成 2026-10-03</span></td>
+        <td>解压时已跳过 <code>.venv/</code>、<code>node_modules/</code>、<code>.npm-cache/</code>、<code>.pip-cache/</code> 四个垃圾目录，项目里只留了真实源码；<code>.gitignore</code> 也已包含它们。现在的 <code>backend/.venv</code> 和 <code>frontend/node_modules</code> 是本机重装的<b>运行必需依赖</b>，别删。</td>
+      </tr>
+      <tr>
+        <td><b>旧 SQLite 库可以删了</b><br><span class="badge b-green">✅ 已完成 2026-10-03</span></td>
+        <td><code>backend/data/learning.db</code> 已移入 <code>my-agent/废弃备份/</code>（没直接删，留个后悔药）。同时清掉了 <code>config/settings.py</code> 里无人引用的 <code>DATABASE_PATH</code> 残留配置。</td>
+      </tr>
+      <tr>
+        <td><b>学习记录永远是 0</b><br><span class="badge b-green">✅ 已完成 2026-10-03</span></td>
+        <td>原来只有学习路径页的"练练手"会写 <code>learning_records</code>，聊天里出的题和资源页的题交卷后都不记。现已打通：<b>三处做题（聊天 / 资源页 / 学习路径）交卷都会自动记录得分与耗时</b>，评估报告从此有真实数据。端到端实测：提交 4/5 → 统计显示 1 次练习、正确率 80%、连续学习 1 天。</td>
+      </tr>
+      <tr>
+        <td><b>前端包太大</b><br><span class="badge b-green">✅ 已完成 2026-10-03</span></td>
+        <td><code>vite.config.js</code> 已加 <code>manualChunks</code>，mermaid / katex 拆成独立包按需加载。构建仍会提示某个 chunk 大，但那是思维导图引擎的<b>懒加载包</b>，只有画导图时才下载，不影响日常使用。</td>
+      </tr>
+      <tr>
+        <td><b>只有 Python 一门课</b></td>
+        <td>想做多课程，<code>config/courses/</code> 按同样的目录结构复制一份（换掉 <code>knowledge_graph.json</code> 和 <code>prompts.yaml</code>），再在 <code>config/settings.py</code> 改 <code>ACTIVE_COURSE</code>。这个设计文档里已经预留好了。</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- ============ 5 ============ -->
+  <h2 id="s5">⑤ 日常怎么启动（记这两段就够了）</h2>
+  <div class="card">
+    <p><b>第一次：</b>需要装好 Python、Node.js、MySQL 8.0 并启动 MySQL 服务，root 密码写进 <code>backend/.env</code>。</p>
+    <p><b>最省事（推荐）：双击项目根目录的 <code>一键启动.bat</code></b> —— 它会自动弹出这两个窗口、检查 MySQL、12 秒后自动打开浏览器。想关闭就双击 <code>停止服务.bat</code>。</p>
+    <p><b>想手动开这两个窗口（学一下也有用）：</b></p>
+    <p>① 按键盘 <code>Win + R</code>，输入 <code>cmd</code> 回车，弹出一个黑色窗口 —— 这就是「窗口 1」，把下面两行粘进去（右键即粘贴）：</p>
+    <pre><code>cd /d D:\2026-10-03-09-34-55\my-agent\backend
+.venv\Scripts\python -m uvicorn main:app --host 127.0.0.1 --port 8000</code></pre>
+    <p>② 再按一次 <code>Win + R</code> → 输入 <code>cmd</code> → 回车，开出「窗口 2」，粘这两行（<b>2026-10-03 已装好官方 Node.js 24.21.0</b>，直接用 <code>npm run dev</code> 即可）：</p>
+    <pre><code>cd /d D:\2026-10-03-09-34-55\my-agent\frontend
+npm run dev</code></pre>
+    <p>小技巧：在文件夹里打开资源管理器，点一下上方地址栏，输入 <code>cmd</code> 回车，可以直接在当前目录开黑窗口，连 <code>cd</code> 都省了。</p>
+    <p>然后浏览器开 <b>http://localhost:5173</b>　·　接口文档 <b>http://localhost:8000/docs</b></p>
+    <div class="note"><b>改了教材/习题/知识库之后</b>，要重新生成索引（离线秒级）：
+    <code>cd backend && .venv\Scripts\python -m app.rag.indexer</code></div>
+    <div class="note"><b>改了后端 Python 代码</b>，要在命令里加 <code>--reload</code> 才会自动重启，否则要手动重启。</div>
+  </div>
+
+  <!-- ============ 6 ============ -->
+  <h2 id="s6">⑥ 代码地图：想改什么，去哪个文件</h2>
+  <div class="card">
+    <p>这是最值得收藏的一张表。<b>先想清楚你要改的是"行为"还是"内容"</b>：</p>
+
+    <h3>想改"AI 怎么说话 / 说什么" —— 不用写代码，改配置</h3>
+    <table>
+      <tr><th style="width:330px">文件</th><th>作用</th></tr>
+      <tr><td><code>backend/config/courses/python/prompts.yaml</code></td><td><b>最常改的一个文件。</b>7 个智能体的"人设"和说话规则全在这。觉得 AI 回答太啰嗦、不像老师、讲太浅，都改这里。</td></tr>
+      <tr><td><code>backend/config/courses/python/knowledge_graph.json</code></td><td>课程大纲：有哪些知识点、先后依赖、难度、常见错误。改这个会直接影响学习路径规划。</td></tr>
+      <tr><td><code>backend/config/courses/python/quiz_templates.json</code></td><td>出题的题型模板（选择/编程/开放题）。</td></tr>
+      <tr><td><code>backend/.env</code></td><td>讯飞密钥、MySQL 密码。<b>别外传。</b></td></tr>
+    </table>
+
+    <h3>想改"AI 怎么思考 / 怎么判断" —— 核心逻辑</h3>
+    <table>
+      <tr><th style="width:330px">文件</th><th>作用</th></tr>
+      <tr><td><code>backend/app/core/orchestrator.py</code></td><td><b>大脑。</b>判断用户想干嘛，然后派活给哪个智能体。想让某类话术触发不同功能，改这里的 <code>INTENT_KEYWORDS</code> / <code>STRONG_KEYWORDS</code> / <code>INTENT_AGENT</code>。</td></tr>
+      <tr><td><code>backend/app/agents/base.py</code></td><td>智能体的公共能力（加载提示词、调大模型、流式推送、存历史）。加新智能体先看这个。</td></tr>
+      <tr><td><code>backend/app/agents/profiler.py</code></td><td>画像智能体：怎么从聊天里提取学生特征、怎么存库。</td></tr>
+      <tr><td><code>backend/app/agents/content_gen.py</code></td><td>讲义 + <b>思维导图</b> + 拓展阅读（三个智能体挤在一个文件里）。</td></tr>
+      <tr><td><code>backend/app/agents/path_planner.py</code></td><td>学习路径 + <b>答疑</b>（同样挤在一个文件里）。</td></tr>
+      <tr><td><code>backend/app/agents/quiz_gen.py</code> / <code>code_agent.py</code></td><td>出题 / 生成代码 Notebook。</td></tr>
+      <tr><td><code>backend/app/core/llm_client.py</code></td><td>怎么连讯飞星火（WebSocket 鉴权、流式、重试）。换大模型就改这。</td></tr>
+    </table>
+
+    <h3>想改"检索到什么资料" —— RAG 层</h3>
+    <table>
+      <tr><th style="width:330px">文件</th><th>作用</th></tr>
+      <tr><td><code>backend/app/rag/indexer.py</code></td><td>一次性把 PPT/习题/路径向量化建索引。改完数据要跑它。</td></tr>
+      <tr><td><code>backend/app/rag/retriever.py</code></td><td>检索规则，含"学生水平 → 只给对应难度的内容"这个个性化过滤，很有特色。</td></tr>
+      <tr><td><code>backend/data/knowledge_base/</code></td><td>教材 PPT、习题库、学习路径 JSON —— <b>加新教材就往这放</b>。</td></tr>
+    </table>
+
+    <h3>想改"网站长什么样 / 有什么页面" —— 前端</h3>
+    <table>
+      <tr><th style="width:330px">文件</th><th>作用</th></tr>
+      <tr><td><code>frontend/src/router/index.js</code></td><td>页面清单和登录拦截。加新页面先在这注册。</td></tr>
+      <tr><td><code>frontend/src/views/*.vue</code></td><td>7 个页面：登录、首页(聊天)、画像初始化、我的画像、学习资源、学习路径、学习评估。</td></tr>
+      <tr><td><code>frontend/src/components/resources/*.vue</code></td><td>5 种资源卡片的渲染器：讲义 / 导图 / 题目 / Notebook / 阅读。</td></tr>
+      <tr><td><code>frontend/src/composables/useSSE.js</code></td><td>前端怎么接收流式响应（打字机效果的核心）。</td></tr>
+      <tr><td><code>frontend/src/api/index.js</code></td><td>前端所有接口调用封装。</td></tr>
+      <tr><td><code>frontend/vite.config.js</code></td><td>改后端端口的话，这里的 proxy target 要同步改。</td></tr>
+    </table>
+
+    <h3>想改"数据存成什么样" —— 数据层</h3>
+    <table>
+      <tr><th style="width:330px">文件</th><th>作用</th></tr>
+      <tr><td><code>backend/app/db/migrations.py</code></td><td>8 张表的建表语句（MySQL 语法）。</td></tr>
+      <tr><td><code>backend/app/db/sqlite_client.py</code></td><td>数据库客户端（<b>名字是历史遗留，实际是 MySQL</b>），含自动建库逻辑。</td></tr>
+      <tr><td><code>backend/app/api/learning_path.py</code></td><td>学习路径 + 标记完成 + 写学习记录，评估报告的数据都从这来。</td></tr>
+      <tr><td><code>backend/app/api/evaluation.py</code></td><td>评估报告的计算逻辑（真实数据）。</td></tr>
+      <tr><td><code>backend/app/api/tutoring.py</code></td><td><b>空壳</b>，待实现（见 P0）。</td></tr>
+    </table>
+
+    <div class="note"><b>给你的三个上手建议：</b><br>
+    1. 别一开始就读代码。先照第 ⑤ 节把它跑起来，<b>把玩 20 分钟</b>，每个页面点一遍、每种话术试一遍，比读十遍代码有用。<br>
+    2. 第一个改动建议从 <code>prompts.yaml</code> 开始——改一句话、保存、看效果，<b>零风险</b>，最快建立信心。<br>
+    3. 之后按第 ④ 节的 P0 清单一条条来，<b>每做一条就用真实对话测一遍</b>，别攒一堆一起测。</div>
+  </div>
+
+  <footer>生成于 2026-10-03 · 所有结论均来自实际运行验证，非静态推测 · 项目位置 D:\2026-10-03-09-34-55\my-agent</footer>
+</div>
+</body>
+</html>
