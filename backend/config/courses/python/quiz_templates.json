@@ -1,0 +1,95 @@
+{
+  "choice": {
+    "single_choice": {
+      "description": "单选题：从4个选项中选择1个正确答案",
+      "option_count": 4,
+      "structure": {
+        "id": "q{n}",
+        "type": "single_choice",
+        "level": "basic | intermediate",
+        "stem": "题目描述",
+        "options": [
+          {"key": "A", "text": "选项A"},
+          {"key": "B", "text": "选项B"},
+          {"key": "C", "text": "选项C"},
+          {"key": "D", "text": "选项D"}
+        ],
+        "answer": "A",
+        "explanation": "详细解析（Markdown格式）",
+        "knowledge_point": "关联知识点id",
+        "difficulty": 1
+      }
+    },
+    "multi_choice": {
+      "description": "多选题：从4个选项中选择多个正确答案",
+      "option_count": 4,
+      "multiple_answers": true,
+      "structure": {
+        "id": "q{n}",
+        "type": "multi_choice",
+        "level": "intermediate",
+        "stem": "题目描述",
+        "options": [
+          {"key": "A", "text": "选项A"},
+          {"key": "B", "text": "选项B"},
+          {"key": "C", "text": "选项C"},
+          {"key": "D", "text": "选项D"}
+        ],
+        "answers": ["A", "C"],
+        "explanation": "详细解析",
+        "knowledge_point": "关联知识点id",
+        "difficulty": 2
+      }
+    },
+    "true_false": {
+      "description": "判断题",
+      "option_count": 2,
+      "structure": {
+        "id": "q{n}",
+        "type": "true_false",
+        "level": "basic",
+        "stem": "判断以下说法的正误",
+        "options": [
+          {"key": "A", "text": "正确"},
+          {"key": "B", "text": "错误"}
+        ],
+        "answer": "A",
+        "explanation": "判断依据说明",
+        "knowledge_point": "关联知识点id",
+        "difficulty": 1
+      }
+    }
+  },
+  "code": {
+    "description": "编程题：学生编写代码解决实际问题",
+    "structure": {
+      "id": "q{n}",
+      "type": "code",
+      "level": "intermediate | advanced",
+      "description": "题目描述（Markdown）",
+      "starter_code": "预置代码框架",
+      "expected_output": "期望输出或测试用例描述",
+      "test_cases": [
+        {"input": "...", "expected": "..."}
+      ],
+      "hints": ["提示1", "提示2"],
+      "solution": "参考解答",
+      "knowledge_point": "关联知识点id",
+      "difficulty": 2
+    }
+  },
+  "open": {
+    "description": "开放题：考察综合分析能力和创造力",
+    "structure": {
+      "id": "q{n}",
+      "type": "open",
+      "level": "advanced",
+      "scenario": "情境描述（Markdown）",
+      "tasks": ["任务1", "任务2"],
+      "rubric": "评分要点",
+      "discussion_points": ["思考题1", "思考题2"],
+      "knowledge_point": "关联知识点id",
+      "difficulty": 3
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "resource_types": {
+    "document": {
+      "name": "课程讲解文档",
+      "agent": "content_gen",
+      "output_format": "markdown",
+      "renderer": "MarkdownCard",
+      "icon": "📄",
+      "description": "个性化课程讲解，包含概念说明、代码示例、图表和易错点提醒"
+    },
+    "mindmap": {
+      "name": "知识思维导图",
+      "agent": "mindmap_gen",
+      "output_format": "mermaid",
+      "renderer": "MermaidViewer",
+      "icon": "🧠",
+      "description": "Mermaid格式思维导图，将知识点结构化可视化"
+    },
+    "quiz": {
+      "name": "分层练习题",
+      "agent": "quiz_gen",
+      "output_format": "json",
+      "renderer": "QuizCard",
+      "icon": "📝",
+      "description": "包含选择题、编程题、开放题的三层练习，难度递进"
+    },
+    "notebook": {
+      "name": "代码实操案例",
+      "agent": "code_agent",
+      "output_format": "ipynb_json",
+      "renderer": "NotebookViewer",
+      "icon": "💻",
+      "description": "Jupyter Notebook格式的交互式代码教学案例"
+    },
+    "reading": {
+      "name": "拓展阅读材料",
+      "agent": "content_gen",
+      "output_format": "markdown",
+      "renderer": "MarkdownCard",
+      "icon": "📖",
+      "description": "基于学生兴趣方向的拓展阅读，拓宽知识面"
+    }
+  },
+  "resource_icons": {
+    "document": "📄",
+    "mindmap": "🧠",
+    "quiz": "📝",
+    "notebook": "💻",
+    "reading": "📖"
+  },
+  "difficulty_labels": {
+    "1": "入门",
+    "2": "基础",
+    "3": "进阶",
+    "4": "高级"
+  }
+}
