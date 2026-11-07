@@ -1,0 +1,207 @@
+{
+  "course": "Python程序设计",
+  "version": "1.1",
+  "description": "Python程序设计课程知识图谱，定义主题依赖关系和知识点结构",
+  "topics": [
+    {
+      "id": "py_basics",
+      "title": "Python基础语法",
+      "order": 1,
+      "difficulty": 1,
+      "estimated_hours": 6,
+      "description": "Python编程的入门基础，涵盖变量、数据类型和基本输入输出",
+      "children": [
+        {
+          "id": "py_variables",
+          "title": "变量与赋值",
+          "difficulty": 1,
+          "estimated_minutes": 40,
+          "keywords": ["变量", "赋值", "命名规则", "动态类型"],
+          "prerequisites": [],
+          "common_mistakes": ["变量名以数字开头", "使用Python保留字", "误以为变量需要声明类型"],
+          "learning_objectives": ["理解变量的概念", "掌握Python命名规范", "理解动态类型语言的特点"]
+        },
+        {
+          "id": "py_datatypes",
+          "title": "基本数据类型",
+          "difficulty": 1,
+          "estimated_minutes": 60,
+          "keywords": ["int", "float", "str", "bool", "type转换", "列表", "元组"],
+          "prerequisites": ["py_variables"],
+          "common_mistakes": ["字符串与数字直接拼接", "类型转换遗漏", "可变类型与不可变类型混淆"],
+          "learning_objectives": ["区分4种基本数据类型", "掌握类型转换方法", "理解可变与不可变类型"]
+        },
+        {
+          "id": "py_io",
+          "title": "输入与输出",
+          "difficulty": 1,
+          "estimated_minutes": 40,
+          "keywords": ["print", "input", "格式化输出", "f-string", "转义字符"],
+          "prerequisites": ["py_variables", "py_datatypes"],
+          "common_mistakes": ["input返回值始终是字符串", "print参数顺序错误", "忘记类型转换"],
+          "learning_objectives": ["掌握print()多种格式化方式", "理解input()返回类型", "熟练使用f-string"]
+        },
+        {
+          "id": "py_strings",
+          "title": "字符串处理",
+          "difficulty": 2,
+          "estimated_minutes": 70,
+          "keywords": ["字符串方法", "split", "join", "strip", "replace", "find", "切片", "大小写转换", "判断方法"],
+          "prerequisites": ["py_datatypes"],
+          "common_mistakes": ["字符串不可变却试图原地修改", "split默认按任意空白分割的误解", "strip只去两端空格", "find找不到返回-1导致索引错误", "字符串比较大小按字典序而非长度"],
+          "learning_objectives": ["掌握常用字符串方法", "理解字符串不可变性", "能组合方法清洗文本数据"]
+        },
+        {
+          "id": "py_operators",
+          "title": "运算符与表达式",
+          "difficulty": 1,
+          "estimated_minutes": 50,
+          "keywords": ["算术运算符", "整除", "取余", "幂运算", "比较运算符", "逻辑运算符", "优先级", "链式比较"],
+          "prerequisites": ["py_variables"],
+          "common_mistakes": ["整除//与/的混淆", "取余运算符结果符号跟除数", "and/or返回值是操作数本身而非布尔值", "not优先级高于比较运算符的误解", "链式比较 1<x<10 的写法"],
+          "learning_objectives": ["区分/与//的适用场景", "理解逻辑运算符短路求值", "正确书写复合条件表达式"]
+        }
+      ]
+    },
+    {
+      "id": "py_control_flow",
+      "title": "控制流程",
+      "order": 2,
+      "difficulty": 2,
+      "estimated_hours": 8,
+      "description": "程序逻辑控制的核心，包含条件判断和循环语句",
+      "children": [
+        {
+          "id": "py_conditionals",
+          "title": "条件判断",
+          "difficulty": 2,
+          "estimated_minutes": 90,
+          "keywords": ["if", "elif", "else", "比较运算符", "逻辑运算符", "嵌套条件"],
+          "prerequisites": ["py_variables", "py_datatypes"],
+          "common_mistakes": ["缩进错误", "==写成了=", "多重条件优先级混淆", "忘记冒号"],
+          "learning_objectives": ["掌握if-elif-else结构", "理解条件表达式", "避免常见逻辑陷阱"]
+        },
+        {
+          "id": "py_loops",
+          "title": "循环语句",
+          "difficulty": 2,
+          "estimated_minutes": 120,
+          "keywords": ["for", "while", "range", "break", "continue", "嵌套循环", "迭代"],
+          "prerequisites": ["py_conditionals"],
+          "common_mistakes": ["range()边界混淆", "无限循环", "缩进层级错误", "循环变量未更新"],
+          "learning_objectives": ["掌握for和while用法", "理解break与continue区别", "避免无限循环"]
+        }
+      ]
+    },
+    {
+      "id": "py_data_structures",
+      "title": "数据结构",
+      "order": 3,
+      "difficulty": 2,
+      "estimated_hours": 10,
+      "description": "Python核心数据结构的深入理解和应用",
+      "children": [
+        {
+          "id": "py_lists",
+          "title": "列表操作",
+          "difficulty": 2,
+          "estimated_minutes": 90,
+          "keywords": ["list", "append", "切片", "列表推导式", "sort", "索引"],
+          "prerequisites": ["py_datatypes", "py_loops"],
+          "common_mistakes": ["索引越界", "切片边界混淆", "浅拷贝与深拷贝"],
+          "learning_objectives": ["掌握列表CRUD操作", "理解切片语法", "使用列表推导式"]
+        },
+        {
+          "id": "py_dicts",
+          "title": "字典与集合",
+          "difficulty": 2,
+          "estimated_minutes": 90,
+          "keywords": ["dict", "set", "键值对", "哈希", "去重"],
+          "prerequisites": ["py_lists"],
+          "common_mistakes": ["key不存在时直接访问", "可变对象作为字典key", "集合无序性的误解"],
+          "learning_objectives": ["掌握字典增删改查", "理解集合运算", "选择合适的数据结构"]
+        },
+        {
+          "id": "py_comprehensions",
+          "title": "推导式与生成器",
+          "difficulty": 3,
+          "estimated_minutes": 80,
+          "keywords": ["列表推导式", "字典推导式", "集合推导式", "条件过滤", "生成器表达式", "yield", "惰性求值"],
+          "prerequisites": ["py_lists", "py_loops"],
+          "common_mistakes": ["推导式里for顺序读反", "在推导式中使用有副作用的函数", "生成器只能遍历一次却重复使用", "推导式嵌套过深可读性崩塌"],
+          "learning_objectives": ["用推导式替代简单循环", "理解生成器惰性求值节省内存", "判断何时该用循环而非推导式"]
+        }
+      ]
+    },
+    {
+      "id": "py_functions",
+      "title": "函数与模块",
+      "order": 4,
+      "difficulty": 3,
+      "estimated_hours": 10,
+      "description": "函数式编程思想和代码组织方式",
+      "children": [
+        {
+          "id": "py_func_def",
+          "title": "函数定义与调用",
+          "difficulty": 3,
+          "estimated_minutes": 120,
+          "keywords": ["def", "参数", "return", "作用域", "lambda", "装饰器入门"],
+          "prerequisites": ["py_control_flow", "py_data_structures"],
+          "common_mistakes": ["可变默认参数陷阱", "作用域混淆", "return缺失"],
+          "learning_objectives": ["掌握函数定义语法", "理解参数传递机制", "了解lambda表达式"]
+        },
+        {
+          "id": "py_modules",
+          "title": "模块与包",
+          "difficulty": 3,
+          "estimated_minutes": 60,
+          "keywords": ["import", "from...import", "pip", "标准库", "第三方库"],
+          "prerequisites": ["py_func_def"],
+          "common_mistakes": ["循环导入", "模块名与变量名冲突", "相对导入错误"],
+          "learning_objectives": ["掌握import机制", "了解Python标准库", "能安装使用第三方库"]
+        }
+      ]
+    },
+    {
+      "id": "py_advanced",
+      "title": "进阶话题",
+      "order": 5,
+      "difficulty": 4,
+      "estimated_hours": 12,
+      "description": "面向对象编程、文件操作和异常处理等进阶内容",
+      "children": [
+        {
+          "id": "py_oop",
+          "title": "面向对象编程",
+          "difficulty": 4,
+          "estimated_minutes": 180,
+          "keywords": ["class", "对象", "继承", "多态", "封装", "__init__"],
+          "prerequisites": ["py_functions"],
+          "common_mistakes": ["self参数遗漏", "类属性与实例属性混淆", "继承层次过深"],
+          "learning_objectives": ["理解面向对象三大特性", "能定义和使用类", "理解继承与多态"]
+        },
+        {
+          "id": "py_file_io",
+          "title": "文件操作与异常处理",
+          "difficulty": 3,
+          "estimated_minutes": 90,
+          "keywords": ["open", "with语句", "try-except", "json", "csv", "文件模式"],
+          "prerequisites": ["py_functions"],
+          "common_mistakes": ["文件未关闭", "异常捕获范围过大", "路径分隔符错误"],
+          "learning_objectives": ["掌握with语句安全操作文件", "理解异常处理机制", "能读写JSON/CSV"]
+        },
+        {
+          "id": "py_stdlib",
+          "title": "常用标准库实战",
+          "difficulty": 3,
+          "estimated_minutes": 100,
+          "keywords": ["random", "datetime", "os", "math", "collections", "Counter", "defaultdict", "time"],
+          "prerequisites": ["py_modules", "py_dicts"],
+          "common_mistakes": ["random生成的是左闭右开区间的误解", "datetime对象可直接做加减但类型是timedelta", "os.path与pathlib混用", "Counter的most_common返回的是列表元组"],
+          "learning_objectives": ["会用random/datetime解决常见问题", "掌握collections提高数据处理效率", "能查阅官方文档学习新库"]
+        }
+      ]
+    }
+  ]
+}
